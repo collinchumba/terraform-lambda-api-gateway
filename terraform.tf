@@ -4,8 +4,9 @@
 terraform {
 
   cloud {
+    organization = "crotich1"
     workspaces {
-      name = "learn-terraform-lambda-api-gateway"
+      name = "crotich1"
     }
   }
 
